@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-p{
+
+body{
   background-color:#2F3440;
    font-family: 'Trebuchet MS', sans-serif;
     color:#FFFFFF;
 }
+
 
 div{
   background-color:#EA6045;
@@ -15,6 +13,4 @@ div{
   margin:auto;
 }
   
-</style>
-</head>
-</html>
+
