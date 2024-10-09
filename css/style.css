@@ -2,9 +2,17 @@
 <html>
 <head>
 <style>
+p{
+  background-color:#2F3440;
+   font-family: 'Trebuchet MS', sans-serif;
+    color:#FFFFFF;
+}
+
 div{
-  background-color:#EA6045
-  width:
+  background-color:#EA6045;
+  height:auto;
+  width:auto;
+  margin:auto;
 }
   
 </style>
