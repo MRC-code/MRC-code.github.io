@@ -8,6 +8,8 @@ body{
  div{
   background-color: #FF6500;
   text-align: center;
+   width: 500px;
+   overflow: hidden;
 }
 
 
