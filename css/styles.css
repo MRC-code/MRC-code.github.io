@@ -1,8 +1,13 @@
 
 body{
-  background-color:#2F3440;
+  background-color:#0B192C;
    font-family: 'Trebuchet MS', sans-serif;
     color:#FFFFFF;
+}
+
+.titlediv{
+  background-color: 0B192C;
+  text-align: center;
 }
 
 
