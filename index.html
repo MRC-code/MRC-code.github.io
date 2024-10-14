@@ -1,38 +1,63 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de Max</title>
-    <link rel="stylesheet"  href="css/styles.css">
     <style>
-    .list{
-    padding: 50px;
-    border: 3px solid #4CAF50;
-    width: 40%;
-    }
-    
-    img{
-        padding:20px ;
-    }
-        </style>
-</head>
-    <body>
-        <center>
-        <div class="heading">
-            <h1>Accueil</h1>
-        </div>    
-            <h2>Liens</h2>
-            <p>
-                    <div class="list">
-                    <li><a style ="color:white;"href="poeme.html">Poeme </a></li>
-                    <li><a style ="color:white;"href="voyage.html">Voyage parfait</a></li>
-                    <li><a style ="color:white;"href="menu.html">Menu</a></li>
-                    </div>
-                    <img src="images/pixel-rain-abstract-background_23-2148380459.avif" width="1000">
-          
-            </p>
-        </center>
-    </body>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+			color: white;
+            background-image: url("https://wallpapercave.com/wp/wp7420853.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 
-    
-    
+        .sidebar {
+            position: fixed;
+            width: 15%;
+            height: 100%;
+            background-color: #363636;
+            padding: 0; 
+        }
+
+        .box {
+            background-color: #131313; 
+            margin: 15px 0; 
+            padding: 15px;
+            border: 2px solid #131313; 
+            border-radius: 5px;
+            text-align: center;
+			transition: background-color 0.3s, border-color 0.3s;
+        }
+
+        .content {
+            margin-left: 15%; 
+            padding: 20px;
+        }
+		    .box:hover {
+            background-color: #0f0f0f; 
+            border-color: #0f0f0f; 
+        }
+
+        h1 {
+            color: white;
+            margin-left: -15px; 
+			 margin: 0; 
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="box">Poeme</div>
+        <div class="box">Voyage parfait</div>
+        <div class="box">Menu</div>
+        <div class="box">Biographie</div> <!-- Reverted to 4 boxes -->
+    </div>
+    <div class="content">
+        <h1>Site de Max</h1>
+    </div>
+</body>
 </html>
