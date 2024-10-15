@@ -1,13 +1,13 @@
 
 body{
-  background-color:#131313;
+  background-color:#363636;
    font-family: 'Trebuchet MS', sans-serif;
     color:#FFFFFF;
       font-weight:bold;
 }
 
  .heading{
-  background-color: #363636;
+  background-color: #5E5E5E;
   text-align: center;
    width: 800px;
    overflow: hidden;
@@ -19,7 +19,7 @@ a {
 	}
 .voyagediv{
 width:25%;
-background-color:#5E5E5E;
+background-color: #5E5E5E;
 margin:15px;
 text-allign:center;
 }
