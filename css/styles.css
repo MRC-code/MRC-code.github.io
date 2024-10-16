@@ -1,22 +1,24 @@
-
+/*Définit la couleur d'arrière plan,fonte de text et couleur de texte */
 body{
   background-color:#363636;
    font-family: 'Trebuchet MS', sans-serif;
     color:#FFFFFF;
       font-weight:bold;
 }
-
+/* Configurations css pour certains de mes boites tires. Définit couleur d'arrière plan,l'allignement du texte, la largeur du boite et prevente du overflow*/
  .heading{
   background-color: #5E5E5E;
   text-align: center;
    width: 800px;
    overflow: hidden;
 }
-
+/* Fait que certaines es mes liens sont blanc et sans décoration de texte */
 a {
             color: white;
             text-decoration:none;
 	}
+
+/*configuration css pour certaines division */
 .h2div{
 width:25%;
 background-color: #5E5E5E;
